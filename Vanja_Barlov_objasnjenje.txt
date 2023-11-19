@@ -1,0 +1,12 @@
+Ime: Vanja (2 suglasnika, 2 samoglasnika, 4 slova) (nj sam racunala kao jedno slovo)
+Prezime: Barlov (4 suglasnika, 2 samoglasnika, 6 slova)
+
+U zbiru 6 suglasnika i 4 samoglasnika u imenu i prezimenu -> port B (ima vise suglasnika)
+
+U zbiru 10 slova u imenu i prezimenu -> 10 % 6 = 4 -> pin 4 (PB4)
+
+Širina impulsa = broj slova u imenu u ms -> 4 ms
+Širina pauze = broj slova u prezimenu u ms -> 6 ms
+
+Impuls + pauza (takt) se ponavlja broj slova u imenu puta -> 4 puta, 
+zatim se ponavlja broj slova u prezimenu puta -> 6 puta.
